@@ -1,0 +1,20 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+	  {
+		"label": "Run UserService",
+		"type": "shell",
+		"command": "cd user_service; python app.py",
+		"problemMatcher": [],
+		"group": "build"
+	  },
+	  {
+		"label": "Run BookService",
+		"type": "shell",
+		"command": "cd book_service; python app.py",
+		"problemMatcher": [],
+		"group": "build"
+	  }
+	]
+  }
+  
